@@ -102,8 +102,22 @@ input.error {
 }
 
 /* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
 nav a {
   margin-left: 10px;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
 }
 
 /* auth forms */
